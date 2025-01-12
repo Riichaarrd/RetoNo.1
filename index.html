@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TiendaOnlineReto</title>
+    <link rel="stylesheet" href="./output.css">
+    <script src="https://upload-widget.cloudinary.com/global/all.js" type="text/javascript"></script>
+
+</head>
+<header>
+    <h1 class="ml-2 sm:ml-6 py-7 font-sans font-bold text-2xl sm:text-3xl md:text-4xl">Desserts</h1>
+</header>
+<div class="h-5/6 flex flex-col lg:flex-row justify-center items-center content-center">
+    <!-- Contenedor de Productos -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 flex-1 w-full lg:w-2/3">
+        <!-- Producto 1 -->
+        <div class="w-full">
+            <img class="w-full aspect-square rounded-2xl object-cover" src="./images/image-cake-desktop.jpg" alt="">
+            <div class="buttonContainer p-1 flex justify-center">
+                <button data-price="4.50" data-name="Red Velvet Cake" class="add-to-cart-btn flex items-center bg-white border border-gray-300 w-40 h-10 rounded-3xl px-5 gap-3 hover:bg-slate-200">
+                    <img src="./images/icon-add-to-cart.svg" alt="Icono">
+                    Add to Cart
+                </button>
+            </div>
+            <p class="text-gray-400">Cake</p>
+            <h2 class="font-semibold">Red Velvet Cake</h2>
+            <p class="color text-orange-600 font-semibold">$4.50</p>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="w-full">
+            <img class="w-full aspect-square rounded-2xl object-cover" src="./images/image-brownie-desktop.jpg" alt="">
+            <div class="buttonContainer p-1 flex justify-center">
+                <button data-name="Salted Caramel Brownie" data-price="5.50" class="add-to-cart-btn flex items-center bg-white border border-gray-300 w-40 h-10 rounded-3xl px-5 gap-3 hover:bg-slate-200">
+                    <img src="./images/icon-add-to-cart.svg" alt="Icono">
+                    Add to Cart
+                </button>
+            </div>
+            <p class="text-gray-400">Brownie</p>
+            <h2 class="font-semibold">Salted Caramel Brownie</h2>
+            <p class="color text-orange-600 font-semibold">$5.50</p>
+        </div>
+
+
+                <div class="w-full">
+                    <img class="w-full aspect-square rounded-2xl object-cover" src="./images/image-baklava-desktop.jpg" alt="">
+
+                    <div class="buttonContainer p-1 flex justify-center">
+                    <button data-name="Pistacho Baklava" data-price="4.00" class="add-to-cart-btn flex items-center bg-white border border-gray-300 w-40 h-10 rounded-3xl px-5 gap-3 hover:bg-slate-200">
+                    <img src="./images/icon-add-to-cart.svg" alt="Icono">
+                    Add to Cart
+                    </button>
+                    </div>
+
+                    <p class="text-gray-400">Baklava</p>
+                    <h2 class="font-semibold">Pistacho Baklava</h2>
+                    <p class="color text-orange-600 font-semibold">$4.00</p>
+                </div>
+
+
+                <div class="w-full">
+                    <img class="w-full aspect-square rounded-2xl object-cover" src="./images/image-creme-brulee-desktop.jpg" alt="">
+
+                    <div id="buttonContainer4" class="add-to-cart p-1 flex justify-center">
+                    <button data-name="Vanilla Bean Créme" data-price="7.00" class="add-to-cart-btn flex items-center bg-white border border-gray-300 w-40 h-10 rounded-3xl px-5 gap-3 hover:bg-slate-200">
+                    <img src="./images/icon-add-to-cart.svg" alt="Icono">
+                    Add to Cart
+                    </button>
+                    </div>
+
+                    <p class="text-gray-400">Créme Brúlée</p>
+                    <h2 class="font-semibold">Vanilla Bean Créme Brulée</h2>
+                    <p class="color text-orange-600 font-semibold">$7.00</p>
+                </div>
+
+
+                <div class="w-full">
+                    <img class="w-full aspect-square rounded-2xl object-cover" src="./images/image-macaron-desktop.jpg" alt="">
+
+                    <div id="buttonContainer5" class="add-to-cart p-1 flex justify-center">
+                    <button data-name="Mcaron Mix of Five" data-price="8.00" class="add-to-cart-btn flex items-center bg-white border border-gray-300 w-40 h-10 rounded-3xl px-5 gap-3 hover:bg-slate-200">
+                    <img src="./images/icon-add-to-cart.svg" alt="Icono">
+                    Add to Cart
+                    </button>
+                    </div>
+
+                    <p class="text-gray-400">Macaron</p>
+                    <h2 class="font-semibold">Macaron Mix of Five</h2>
+                    <p class="color text-orange-600 font-semibold">$8.00</p>
+                </div>
+
+
+                <div class="w-full">
+                    <img class="w-full aspect-square rounded-2xl object-cover" src="./images/image-meringue-desktop.jpg" alt="">
+
+                    <div id="buttonContainer6" class="add-to-cart p-1 flex justify-center">
+                    <button data-name="Lemon Meriengue Pie" data-price="5.00" class="add-to-cart-btn flex items-center bg-white border border-gray-300 w-40 h-10 rounded-3xl px-5 gap-3 hover:bg-slate-200">
+                    <img src="./images/icon-add-to-cart.svg" alt="Icono">
+                    Add to Cart
+                    </button>
+                    </div>
+
+                    <p class="text-gray-400">Pie</p>
+                    <h2 class="font-semibold">Lemon Meriengue Pie</h2>
+                    <p class="color text-orange-600 font-semibold">$5.00</p>
+                </div>
+
+
+                <div class="w-full h-full">
+                    <img class="w-full aspect-square rounded-2xl object-cover" src="./images/image-panna-cotta-desktop.jpg" alt="">
+
+                    <div id="buttonContainer7" class="add-to-cart p-1 flex justify-center">
+                    <button data-name="Vaniñña Panna Cotta" data-price="6.50" class="add-to-cart-btn flex items-center bg-white border border-gray-300 w-40 h-10 rounded-3xl px-5 gap-3 hover:bg-slate-200">
+                    <img src="./images/icon-add-to-cart.svg" alt="Icono">
+                    Add to Cart
+                    </button>
+                    </div>
+
+                    <p class="text-gray-400">Panna Cotta</p>
+                    <h2 class="font-semibold">Vanilla Panna Cotta</h2>
+                    <p class="color text-orange-600 font-semibold">$6.50</p>
+                </div>
+
+
+                <div class="w-full h-full">
+                    <img class="w-full aspect-square rounded-2xl object-cover" src="./images/image-tiramisu-desktop.jpg" alt="">
+
+                    <div id="buttonContainer8" class="add-to-cart p-1 flex justify-center">
+                    <button data-name="Classic Tiramisu" data-price="6.50" class="add-to-cart-btn flex items-center bg-white border border-gray-300 w-40 h-10 rounded-3xl px-5 gap-3 hover:bg-slate-200">
+                    <img src="./images/icon-add-to-cart.svg" alt="Icono">
+                    Add to Cart
+                    </button>
+                    </div>
+
+                <p class="text-gray-400">Tiramisu</p>
+                <h2 class="font-semibold">Classic Tiramisu</h2>
+                <p class="color text-orange-600 font-semibold">$6.50</p>
+                </div>
+
+
+                <div class="w-full h-full">
+                    <img class="w-full aspect-square rounded-2xl object-cover" src="./images/image-waffle-desktop.jpg" alt="">
+
+                    <div id="buttonContainer" class="add-to-cart p-1 flex justify-center">
+                    <button data-name="Waffles with Ber" data-price="6.50" class="add-to-cart-btn flex items-center bg-white border border-gray-300 w-40 h-10 rounded-3xl px-5 gap-3 hover:bg-slate-200">
+                    <img src="./images/icon-add-to-cart.svg" alt="Icono">
+                    Add to Cart
+                    </button>
+                    </div>
+
+                    <p class="text-gray-400">Waffles</p>
+                    <h2 class="font-semibold">Waffles with Berries</h2>
+                    <p class="color text-orange-600 font-semibold">$6.50</p>
+                </div>
+            </div>
+
+            <!-- Contenedor del Carrito -->
+        <div class="lg:mt-0 lg:ml-8 w-full lg:w-1/3 rounded-xl sticky overflow-y-auto">
+            <h1 class="flex justify-center cart-count color font-semibold text-xl sm:text-2xl text-orange-600">Your Cart (<span id="cartCount">0</span>)</h1>
+            <div class="cart flex justify-center items-center">
+                <img class="w-60 h-52 border mt-6" id="itemsadd" src="https://res.cloudinary.com/dk0sx1enc/image/upload/v1733796124/imagen_2024-12-09_200203372_hddywb.png" alt="">
+        </div>
+
+            <div id="cart">
+                <ul id="cartItems">
+                <!-- Aquí aparecerán los productos -->
+                </ul>
+                <p id="total" class="font-semibold text-lg m-4">Total: $0.00</p>
+                    <div id="carbontext">
+
+                    </div>
+                        <div class="Buttonsubmit" id="Buttonsubmit">
+
+                        </div>
+            </div>
+
+            <div class="Menuorder"></div>
+
+        </div>
+    </div>
+
+        <script>
+            // Selección de botones y contador total
+            let totalCartCount = 0;
+            const buttons = document.querySelectorAll('.add-to-cart-btn');
+            const cart = [];
+            const cartItems = document.getElementById("cartItems");
+            const cartorder = document.getElementById("cartItems");
+            
+            function initializeButton(button) {
+                const originalHTML = button.parentElement.innerHTML; // Guarda el HTML original
+                const productName = button.getAttribute('data-name');
+                const productPrice = parseFloat(button.getAttribute('data-price'));
+            
+                button.addEventListener('click', () => {
+                const buttonContainer = button.parentElement;
+                buttonContainer.innerHTML = `
+                    <div class="bg-orange-600 w-40 h-10 rounded-3xl flex justify-center items-center gap-3 shadow-xl drop-shadow-sm">
+                    <button class="decrement text-white border-2 border-white rounded-full w-7 h-7 hover:bg-white hover:text-red-700">−</button>
+                    <span class="counter-value text-white font-bold text-lg mx-4">1</span>
+                    <button class="increment text-white border-2 border-white rounded-full w-7 h-7 hover:bg-white hover:text-red-700">+</button>
+                    </div>
+                `;
+            
+                // Inicialización del contador dinámico
+                let counter = 1;
+                addToCart(productName, productPrice, counter);
+            
+                const decrementButton = buttonContainer.querySelector('.decrement');
+                const incrementButton = buttonContainer.querySelector('.increment');
+                const counterValue = buttonContainer.querySelector('.counter-value');
+            
+                // Incrementar cantidad
+                incrementButton.addEventListener('click', () => {
+                    counter++;
+                    counterValue.textContent = counter;
+                    updateCart(productName, 1);
+                });
+            
+                // Decrementar cantidad
+                decrementButton.addEventListener('click', () => {
+                    if (counter > 1) {
+                    counter--;
+                    counterValue.textContent = counter;
+                    updateCart(productName, -1);
+                    } else {
+                    buttonContainer.innerHTML = originalHTML;
+                    updateCart(productName, -1, true);
+                    const newButton = buttonContainer.querySelector('.add-to-cart-btn');
+                    initializeButton(newButton);
+                    }
+                });
+                });
+            }
+            
+            // Agregar producto al carrito
+            function addToCart(name, price, quantity = 1) {
+                const existingProduct = cart.find(item => item.name === name);
+                if (existingProduct) {
+                existingProduct.quantity += quantity;
+                } else {
+                cart.push({ name, price, quantity });
+                }
+                updateCartCount(quantity);
+                renderCart();
+            }
+            
+            // Actualizar carrito (incrementar o decrementar)
+            function updateCart(name, change, remove = false) {
+                const product = cart.find(item => item.name === name);
+                if (product) {
+                if (remove) {
+                    cart.splice(cart.indexOf(product), 1);
+                } else {
+                    product.quantity += change;
+                }
+                }
+                updateCartCount(change);
+                renderCart();
+                
+            }
+            
+            // Actualizar contador total
+            function updateCartCount(change) {
+                totalCartCount += change;
+                document.getElementById("cartCount").textContent = totalCartCount;
+
+            }
+
+// Renderizar contenido del carrito
+function renderCart() {
+    const emptyImage = document.getElementById('itemsadd'); // La imagen "vacía"
+    const carbonImage = document.getElementById('carbonimage'); // Otra imagen
+    const carbonText = document.getElementById("carbontext"); // Contenedor del texto
+    const buttonsubmit = document.getElementById("Buttonsubmit"); //Boton submit
+
+    cartItems.innerHTML = ''; // Limpiar el carrito
+    let totalOrder = 0; // Inicializar el total a 0 en cada renderizado
+
+    // Verificar si el carrito está vacío
+    if (cart.length === 0) {
+        emptyImage.style.display = 'block'; // Mostrar la imagen si el carrito está vacío
+        if (carbonImage) carbonImage.style.display = 'none'; // Ocultar la otra imagen
+    } else {
+        emptyImage.style.display = 'none'; // Ocultar la imagen si hay productos
+        if (carbonImage) carbonImage.style.display = 'block'; // Mostrar la otra imagen
+    }
+
+    // Renderizar productos en el carrito
+    cart.forEach(item => {
+        const li = document.createElement('li');
+        li.classList.add('cart-item'); // Añadimos una clase para los estilos
+        li.innerHTML = `
+            <div class="flex justify-center gap-3 mt-6">
+                <span class="text-lg font-semibold color text-orange-600 cart-item-quantity">${item.quantity}x</span>
+                <span class="text-lg font-semibold cart-item-name">${item.name}</span>
+                <span class="text-lg cart-item-price">$${(item.price * item.quantity).toFixed(2)}</span>
+            </div>
+        `;
+        cartItems.appendChild(li);
+
+        // Sumar el total
+        totalOrder += item.price * item.quantity;
+    });
+
+    // Actualizar el total en el elemento #total
+    const totalElement = document.getElementById("total");
+    totalElement.textContent = `Total: $${totalOrder.toFixed(2)}`;
+
+    const text = document.getElementById("carbontext");
+    carbontext.classList.add("carbon-style");
+    carbontext.innerHTML = 
+    `<div class="flex justify-center">
+        <div class="flex justify-center items-center bg-red-50 w-72 h-12 rounded-sm">
+            <img class="h-5 w-5" id="carbonimage" src="./images/icon-carbon-neutral.svg" alt="">
+            <p>This is a Carbon-Neutral delivery</p>
+        </div>
+    </div>`;
+
+    if (cart.length === 0) { 
+        carbonText.style.display = "none"
+    }
+    else{ 
+        carbonText.style.display = "block"
+    }
+
+
+    // Renderizar el botón de confirmación
+    const Buttonsubmit = document.getElementById("Buttonsubmit");
+        buttonsubmit.innerHTML = `
+            <div class="flex justify-center">
+                <button class="bg-orange-600 w-80 h-14 text-white rounded-full mt-6">
+                    Confirm Order
+                </button>
+            </div>
+        `;
+
+    if (cart.length === 0) { 
+        Buttonsubmit.style.display = "none"
+    }
+    else{ 
+        Buttonsubmit.style.display = "block"
+    }
+}
+
+
+
+// Agregar funcionalidad al botón de confirmación de pedido
+function orderConfirmed() {
+        const btnconfirm = document.querySelector("#Buttonsubmit");
+        const menu = [];
+
+        // Agregar evento click
+        btnconfirm.addEventListener("click", () => {
+            // Seleccionar el contenedor donde se mostrará el menú
+            const menuorder = document.querySelector(".Menuorder");
+
+            // Crear el contenido del menú de confirmación
+            menuorder.innerHTML = `
+                <div class="fixed inset-0 bg-black/50 flex justify-center items-center z-50">
+                    <div class="bg-white lg:w-2/5 xl:w-2/5 2xl:w-2/5 rounded rounded-2xl p-8">
+                        <img src="./images/icon-order-confirmed.svg" alt="Order Confirmed" class="mx-auto">
+                        <h1 class="font-bold text-4xl mt-6 text-center">Order Confirmed</h1>
+                        <p class="text-gray-500 text-center mb-6">We hope you enjoy your food!</p>
+                        
+                        <button id="startNewOrder" class="w-full h-12 mt-4 rounded-full font-semibold text-white bg-orange-600">
+                            Start New Order
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            // Agregar funcionalidad al botón "Start New Order"
+            const startNewOrderButton = document.querySelector("#startNewOrder");
+            if (startNewOrderButton) {
+                startNewOrderButton.addEventListener("click", () => {
+                    window.location.href = "./index.html"; // Redirige al inicio
+                });
+            }
+        });
+    }
+
+
+
+        // Llamar a la función orderConfirmed después de renderizar el botón
+        orderConfirmed();
+    
+
+    // Llamar a renderCart al inicio para inicializar el carrito
+    renderCart();
+
+// Inicializar todos los botones
+buttons.forEach(button => initializeButton(button));
+            </script>
+            
+        </div>
+</html>
